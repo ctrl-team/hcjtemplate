@@ -1,6 +1,6 @@
 # hcjtemplate
-[Stars](https://img.shields.io/github/stars/Nimplex/hcjtemplate)
-[licence](https://img.shields.io/github/license/Nimplex/hcjtemplate)
+[![Stars](https://img.shields.io/github/stars/Nimplex/hcjtemplate)
+[![licence](https://img.shields.io/github/license/Nimplex/hcjtemplate)
 <br>
 ❤Quick html template creator
 <br>
