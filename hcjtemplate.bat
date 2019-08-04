@@ -29,11 +29,24 @@ cd css
 echo Empty file > style.css
 cd %cdData%
 call echocl.bat "Template created!" y A 0 
-echo.
-pause
-exit
+echo Run Visual Studio Code in site folder?
+set /p d2="(Y/N) "
+if %d2% == y goto done2
+if %d2% == n goto done
 
 :withvsc
 cd %directory%
 echo code . > "Start Visual Studio Code.bat"
 goto do
+
+:done
+echo.
+pause
+exit
+
+:done2
+cd %directory%
+code .
+echo.
+pause
+exit
