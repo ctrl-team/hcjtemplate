@@ -12,7 +12,7 @@ echo Empty file > script.js
 cd ..
 mkdir css
 cd css
-echo Empty file > style.js
+echo Empty file > style.css
 echo Template created!
 echo >nul
 pause
